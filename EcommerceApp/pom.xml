@@ -79,6 +79,6 @@
     
   </dependencies>
   <build>
-    <finalName>EcommerceApp</finalName>
+    <finalName>HueEcommerce</finalName>
   </build>
 </project>
