@@ -14,7 +14,7 @@ public class DBConnect
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		//	conn = DriverManager.getConnection("jdbc:sqlite:mydatabase.db");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ecommerce", "root", "qwer123$");
+			conn = DriverManager.getConnection("jdbc:mysql://db.hue.com:3306/ecommerce", "root", "qwer123$");
 
 		}catch (Exception e) {
 			e.printStackTrace();
